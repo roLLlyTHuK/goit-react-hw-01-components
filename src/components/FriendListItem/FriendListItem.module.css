@@ -1,0 +1,24 @@
+.listitem {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  padding: 10px 10px;
+  justify-content: canter;
+  align-items: center;
+  gap: 15px;
+  box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+.status {
+  display: block;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  background-color: red;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
